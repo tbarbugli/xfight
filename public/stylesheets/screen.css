@@ -260,7 +260,7 @@ legend {
 }
 body {
   margin-top: 10px;
-  background: #ffffff url(../images/body-back.png) top left repeat-x;
+  background: #ffffff url(../images/body-back.jpg) top center no-repeat;
 }
 div.left {
   float: left;
@@ -375,13 +375,14 @@ p img {
 .navigation-list li a {
   cursor: pointer !important;
   text-decoration: none;
-  color: #333333;
   display: block;
   line-height: 2.5em;
   padding-left: 20px;
   width: 170px;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: hidden; 
+  color:#ffff33;     
+  font-size:14px;
 }
 .navigation-list li a:hover { background: url(../images/menu-hover.png) right center no-repeat; }
 .navigation-list li.current { width: 200px; }
@@ -393,8 +394,8 @@ p img {
 }
 .navigation-list li.current a.root { width: 183px; }
 .navigation-list a.root {
-  color: #222222;
-  font-size: 1.5em;
+  color: #CCC;
+  font-size: 1.8em;
   text-indent: -5px;
   line-height: 2.2em;
 }

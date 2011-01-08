@@ -9,9 +9,12 @@ module Xfight
     def self.activate
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
         Rails.env.production? ? require(c) : load(c)
+      end   
+      AppConfiguration.class_eval do   
+         preference :logo, :string, :default => 'logo.png'       
       end
     end
-
+    
     config.to_prepare &method(:activate).to_proc
   end
 end
