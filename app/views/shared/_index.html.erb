@@ -1,4 +1,8 @@
 <div>
-  <img src="images/banner.gif" />
+  <div id="banner">
+    <% @banners.each do |banner| %>
+      <%= image_tag(banner) %> 
+    <% end %>
+  </div>
 </div>
 <%= render "shared/homepage_taxonomies", :products => @products, :taxon => @taxon %>
