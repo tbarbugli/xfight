@@ -1,0 +1,11 @@
+<%= f.field_container :show_on_homepage do %>
+  <%= f.label :name, t('show_on_homepage') %><br />
+  <%= error_message_on :taxonomy, :show_on_homepage, :class => 'fullwidth title'  %>
+  <%= check_box :taxonomy, :show_on_homepage  %>
+<% end %>
+
+<%= f.field_container :show_on_sidebar do %>
+  <%= f.label :name, t('show_on_sidebar') %><br />
+  <%= error_message_on :taxonomy, :show_on_sidebar, :class => 'fullwidth title'  %>
+  <%= check_box :taxonomy, :show_on_sidebar  %>
+<% end %>

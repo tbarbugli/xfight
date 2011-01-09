@@ -1,0 +1,9 @@
+<div id="taxonomies">
+<% get_homepage_taxonomies.each do |taxonomy| %>
+  <ul class="taxonomies-listing">
+	  <% taxonomy.root.children.each do |taxon| %>
+	    <li><%= link_to image_tag(taxon.icon.url(:normal)), seo_url(taxon) %></li>
+	  <% end %>
+	</ul>
+<% end %>
+</div>
