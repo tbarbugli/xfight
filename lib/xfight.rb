@@ -9,10 +9,15 @@ module Xfight
     def self.activate
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
         Rails.env.production? ? require(c) : load(c)
-      end   
+      end                 
+      
       AppConfiguration.class_eval do   
-         preference :logo, :string, :default => 'logo.png'       
-      end 
+         preference :logo, :string, :default => 'logo.png'  
+         preference :admin_interface_logo, :string, :default => 'logo.png'
+         preference :products_per_page, :integer, :default => 8
+         preference :default_locale, :string, :default => 'it'     
+      end                    
+      
       Taxon.class_eval do    
         has_attached_file :icon,
                       :styles => { :mini => '32x32>', :normal => '100x75>' },
