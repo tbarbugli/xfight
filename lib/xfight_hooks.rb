@@ -9,4 +9,6 @@ class XfightHooks < Spree::ThemeSupport::HookListener
     # import js for banner
     insert_after :inside_head, "shared/js"  
     
+    remove :footer_left
+    remove :footer_right
 end

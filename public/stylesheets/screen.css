@@ -12,8 +12,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 *:focus { outline: 0; }
 body {
   line-height: 1em;
-  color: black;
-  background: #ffffff;
+  color: #fefefe;
+  background: #ffffff; 
+  margin-top: 10px;
+  background: #ffffff url(../images/body-back.jpg) top center no-repeat; 
+  line-height: 1.5;
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 85%;
 }
 ol, ul { list-style: none; }
 table {
@@ -54,12 +59,6 @@ hr.space {
   background: #ffffff;
   color: #ffffff;
 }
-body {
-  line-height: 1.5;
-  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
-  color: #333333;
-  font-size: 75%;
-}
 h1 {
   font-weight: normal;
   color: #CCC;
@@ -70,34 +69,34 @@ h1 {
 h1 img { margin: 0; }
 h2 {
   font-weight: normal;
-  color: #222222;
+  color: #FEFEFE;
   font-size: 2em;
   margin-bottom: 0.75em;
 }
 h3 {
   font-weight: normal;
-  color: #222222;
+  color: #FEFEFE;
   font-size: 1.5em;
   line-height: 1;
   margin-bottom: 1em;
 }
 h4 {
   font-weight: normal;
-  color: #222222;
+  color: #FEFEFE;
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
 h5 {
   font-weight: normal;
-  color: #222222;
+  color: #FEFEFE;
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 1.5em;
 }
 h6 {
   font-weight: normal;
-  color: #222222;
+  color: #FEFEFE;
   font-size: 1em;
   font-weight: bold;
 }
@@ -258,10 +257,6 @@ legend {
   margin-right: 25px;
   border-right: 1px solid #eeeeee;
 }
-body {
-  margin-top: 10px;
-  background: #ffffff url(../images/body-back.jpg) top center no-repeat;
-}
 div.left {
   float: left;
   width: 49%;
@@ -385,19 +380,18 @@ p img {
   font-size:14px;
 }
 .navigation-list li a:hover { background: url(../images/menu-hover.png) right center no-repeat; }
-.navigation-list li.current { width: 200px; }
-.navigation-list li.current a {
-  width: 180px;
-  background: url(../images/menu-current.png) right center no-repeat;
+.navigation-list li.current a{ 
+  background: url(../images/menu-current-black.png) no-repeat 100% 50%;
+  width: 170px;  
   white-space: nowrap;
   overflow: hidden;
 }
-.navigation-list li.current a.root { width: 183px; }
-.navigation-list a.root {
+.navigation-list li.root {
   color: #CCC;
   font-size: 1.8em;
-  text-indent: -5px;
-  line-height: 2.2em;
+  line-height: 2.2em; 
+  width: 183px;
+  margin-left:5px;
 }
 .breadcrumbs { margin-bottom: 1em; }
 .breadcrumbs ul {
@@ -449,7 +443,9 @@ ul#nav-bar {
   font-size: 1.2em;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0;      
+  padding-top:60px;
+  margin-bottom:-85px;
 }
 ul#nav-bar li {
   float: left;

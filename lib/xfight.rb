@@ -13,7 +13,7 @@ module Xfight
       
       AppConfiguration.class_eval do   
          preference :logo, :string, :default => 'logo.png'  
-         preference :admin_interface_logo, :string, :default => 'logo.png'
+         preference :admin_interface_logo, :string, :default => 'logo-admin.png'
          preference :products_per_page, :integer, :default => 8
          preference :default_locale, :string, :default => 'it'     
       end                    
