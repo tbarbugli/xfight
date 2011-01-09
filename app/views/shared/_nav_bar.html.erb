@@ -1,0 +1,8 @@
+<li><%= render 'shared/search' %></li>
+<%= render 'shared/login_bar' %>
+<% if store_menu? %>
+  <%= render 'shared/store_menu' %>
+<% end %>
+
+<li><%= link_to image_tag("it.png"), :controller=>'locale', :action=>'set', :locale=>'it' %></li>
+<li><%= link_to image_tag("gb.png"), :controller=>'locale', :action=>'set', :locale=>'en' %></li>
