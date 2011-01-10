@@ -25,7 +25,23 @@ module Xfight
                       :url => "/assets/taxons/:id/:style/:basename.:extension",
                       :path => ":rails_root/public/assets/taxons/:id/:style/:basename.:extension",
                       :default_url => "/images/default_taxon.png"
+      end      
+      
+      ProductFilters.class_eval do
+        def ProductFilters.price_filter
+          conds = [ [ "Under 10",    "price             <= 10" ],
+                    [ "10 - 15",    "price between 10 and 15" ],
+                    [ "15 - 25",    "price between 15 and 25" ],
+                    [ "25 - 50",    "price between 25 and 50" ],
+                    [ "50 or over",  "price             >= 50" ] ]
+          { :name   => "Price Range",
+            :scope  => :price_range_any,
+            :conds  => Hash[*conds.flatten],
+            :labels => conds.map {|k,v| [k,k]}
+          }
+        end 
       end
+        
     end
     
     config.to_prepare &method(:activate).to_proc
