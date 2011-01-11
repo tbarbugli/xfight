@@ -267,11 +267,18 @@ div.right {
 }
 a { outline: none; }
 #wrapper {
-  background: transparent url(../images/wrapper-back.png) top center no-repeat;
+  background: black url(../images/wrapper-back.png) top center no-repeat;
   padding: 25px 20px 20px;
   position: relative;
+  min-height:450px;      
+  border:2px solid white;
 }
-body.two-col #wrapper { background-image: url(../images/wrapper-back-2.png); }
+body.two-col #wrapper { 
+  background-image: url(../images/wrapper-back-2.png); 
+  background-color:black; 
+  min-height:450px;   
+  border:2px solid white; 
+}
 .container {
   width: 950px;
   margin: 0 auto;

@@ -3,8 +3,10 @@ ProductsController.class_eval do
   def index
     @variants = []   
     @product_properties = []
-    @selected_variant = [] 
-    @products = []
+    @selected_variant = []          
+    @searcher = Spree::Config.searcher_class.new(params)
+    @products = @searcher.retrieve_products 
+    
     @banners = []
     
     Dir.glob(File.join(RAILS_ROOT, "public/images/banner_images/*.{jpg,gif,png,jpeg}")) do |img|       
