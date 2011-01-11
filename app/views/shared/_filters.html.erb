@@ -17,7 +17,7 @@
                    name="search[<%= filter[:scope].to_s %>][]" 
                    value="<%= val %>"
                    <%= params[:search][filter[:scope]] && params[:search][filter[:scope]].include?(val.to_s) ? "checked" : "" %> />
-            <label class="nowrap" for="<%= t(label) %>"> <%= nm %> </label>
+            <label class="nowrap" for="<%= label %>"> <%= t(nm) %> </label>
           </li>
         <% end %>
       </ul>

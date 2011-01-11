@@ -20,6 +20,13 @@ it:
   - original from spree
   'no': "No"
   'yes': "Si"
+  Brands: "Marche"    
+  "Price Range": "Cerca per prezzo"        
+  "Under 10": "Inferiore a 10 €" 
+  "10 - 15": "10€ - 15€" 
+  "15 - 25": "15€ - 25€" 
+  "25 - 50": "25€ - 50€" 
+  "50 or over": "sopra 50€" 
   5_biggest_spenders: "I 5 migliori clienti"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: 'Una copia di tutte le mail verranno invitate ai seguenti indirizzi'
   abbreviation: 'Abbreviazione'
