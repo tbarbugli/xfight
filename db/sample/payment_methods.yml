@@ -1,0 +1,6 @@
+credit_card_dev:
+  name: Credit Card
+  description: Bogus payment gateway for development.
+  environment: development
+  active: true
+  type: Gateway::Bogus

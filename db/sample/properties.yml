@@ -1,0 +1,9 @@
+prop_manufacturer:
+  name: manufacturer
+  presentation: Produttore
+prop_brand:
+  name: brand
+  presentation: Marca
+prop_model:
+  name: model
+  presentation: Modello

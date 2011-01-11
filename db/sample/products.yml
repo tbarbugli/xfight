@@ -1,0 +1,6 @@
+guantoni-leone-sparring:
+  name: Guantoni leone sparring
+  description: Guanti in pelle da 12, 14 e 16 oz per allenamento Pro e dilettanti. Alto spessore di imbottitura e peso per affinare tecnica, velocità e resistenza.<br><br>The best 12, 14, 16 oz leather boxing gloves the perfect solution for Pros and amateurs training. The great thickness of the padding as well as their weight and size assure high performance, speed and relience.
+  available_on: <%= Time.zone.now.to_s(:db) %>
+  permalink: guantoni-leone-sparring
+  count_on_hand: 0

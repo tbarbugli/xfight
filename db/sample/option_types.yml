@@ -1,0 +1,10 @@
+taglie_guantoni:
+  name: taglie-guantoni
+  presentation: Taglia
+taglie_scarpe:
+  name: taglie-scarpe
+  presentation: Misura
+taglie_generiche:
+  name: taglie
+  presentation: Taglia
+  
