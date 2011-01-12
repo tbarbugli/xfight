@@ -1,3 +1,4 @@
 proto-boxing-gloves:
-  name: Shirt
-  properties: prop_manufacturer prop_brand prop_model
+  name: Guantoni
+  properties: prop_manufacturer, prop_brand, prop_model
+  option_types: 

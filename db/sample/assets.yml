@@ -1,0 +1,31 @@
+guantoni-rosso:
+  id: 1
+  viewable: guantoni-leone-sparring
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: g1282833586.jpeg
+  attachment_width: 387
+  attachment_height: 708
+  type: Image  
+  position: 1
+guantoni-rosso-1:
+  id: 2
+  viewable: guantoni-leone-sparring
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: g1282833606.jpeg
+  attachment_width: 387
+  attachment_height: 708
+  type: Image  
+  position: 2
+guantoni-rosso-2:
+  id: 3
+  viewable: guantoni-leone-sparring
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: g1282833629.jpeg
+  attachment_width: 387
+  attachment_height: 708
+  type: Image  
+  position: 3
+  

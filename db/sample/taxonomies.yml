@@ -1,4 +1,8 @@
 master_categories:
-  name: Categories
-brand:
-  name: Brand
+  name: Categorie
+  show_on_homepage: True
+  show_on_sidebar: True
+# brand:
+#   name: Brand
+#   show_on_homepage: True
+#   show_on_sidebar: True

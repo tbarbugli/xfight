@@ -1,4 +1,16 @@
-shirt_man_a:
-  product: ror_baseball_jersey
-  property: prop_manufacturer
-  value: Wilson
+p1-guantoni-leone-sparring:
+  product: guantoni-leone-sparring
+  property: prop_model
+  value: Sparring
+p2-guantoni-leone-sparring:
+  product: guantoni-leone-sparring
+  property: prop_brand
+  value: Leone
+p3-guantoni-leone-sparring:
+  product: guantoni-leone-sparring
+  property: prop_colors
+  value: Rosso/Giallo/Blu
+p4-guantoni-leone-sparring:
+  product: guantoni-leone-sparring
+  property: prop_material
+  value: Pelle

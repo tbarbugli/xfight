@@ -16,8 +16,10 @@ it:
       default: "%d/%m/%Y"
       short: "%b %d"
       long: "%B %d, %Y"
-
-  - original from spree
+  
+  show_on_homepage: "Mostra nella home"
+  show_on_sidebar: "Mostra nella barra laterale"
+  # - original from spree
   'no': "No"
   'yes': "Si"
   Brands: "Marche"    

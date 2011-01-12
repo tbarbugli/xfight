@@ -5,16 +5,23 @@ guantoni-leone-sparring_v:
   cost_price: 11.00
   is_master: true
   count_on_hand: 10
-8-guantoni-leone-sparring:
+1-guantoni-leone-sparring:
   product: guantoni-leone-sparring
-  option_values: 8_oz,
+  option_values: 12_oz,
   sku: GN032
   price: 30.00
   cost_price: 30.00
   count_on_hand: 1
-10-guantoni-leone-sparring:
+2-guantoni-leone-sparring:
   product: guantoni-leone-sparring
-  option_values: 10_oz,
+  option_values: 14_oz,
+  sku: GN032
+  price: 30.00
+  cost_price: 30.00
+  count_on_hand: 1
+3-guantoni-leone-sparring:
+  product: guantoni-leone-sparring
+  option_values: 16_oz,
   sku: GN032
   price: 30.00
   cost_price: 30.00

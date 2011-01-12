@@ -7,3 +7,9 @@ prop_brand:
 prop_model:
   name: model
   presentation: Modello
+prop_material:
+  name: material
+  presentation: Materiale
+prop_colors:
+  name: colors
+  presentation: Colori
